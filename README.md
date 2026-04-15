@@ -1,17 +1,27 @@
 # OpenCode Premium Skills
 
-Premium AI skills for opencode featuring advanced frontend UI/UX, secure PHP backend, and more.
+Premium AI skills for opencode featuring advanced frontend UI/UX, secure PHP backend, mobile development, and more for production-ready applications.
 
-## Skills Included
+## Skills Included (16 Total)
 
-| Skill | Description |
-|-------|------------|
-| `advanced-frontend-uiux` | Elite 3D/frontend with WebGL, GSAP, animations |
-| `caveman` | Ultra-compressed communication (token saving) |
-| `php-expert` | Secure PHP backend development |
-| `supabase` | Supabase (DB, Auth, Edge Functions) |
-| `ui-ux-pro-max` | 50+ styles, 161 color palettes, UI/UX design |
-| `frontend-design` | Production-grade frontend UI |
+| # | Skill | Description |
+|---|-------|--------------|
+| 1 | `advanced-frontend-uiux` | Elite 3D/frontend with WebGL, GSAP, Three.js animations |
+| 2 | `frontend-design` | Production-grade frontend with distinctive aesthetics |
+| 3 | `ui-ux-pro-max` | 50+ styles, 161 color palettes, UI/UX design intelligence |
+| 4 | `react-native` | React Native mobile app development |
+| 5 | `mobile-developer` | Mobile best practices and guidelines |
+| 6 | `push-notification-setup` | Firebase push notifications setup |
+| 7 | `php-expert` | Secure PHP backend development |
+| 8 | `supabase` | Supabase (Database, Auth, Edge Functions, Storage) |
+| 9 | `postgresql-database-engineering` | PostgreSQL database engineering |
+| 10 | `aws-expert` | AWS cloud services and infrastructure |
+| 11 | `docker-compose-orchestration` | Docker Compose setup and orchestration |
+| 12 | `app-store-deployment` | Play Store and App Store deployment |
+| 13 | `playwright-testing` | E2E testing with Playwright |
+| 14 | `caveman` | Ultra-compressed communication (75% token savings) |
+| 15 | `find-skills` | Discover and install new skills |
+| 16 | `supabase` | Already listed - Supabase DB, Auth |
 
 ## Installation
 
@@ -38,53 +48,99 @@ cp -r ~/opencode-skills/<skill-name> ~/.agents/skills/
 cp -r ~/opencode-skills/* ~/.agents/skills/
 ```
 
-## Available Skills
+## Skills by Category
 
-### php-expert
-Secure PHP backend development with mandatory security practices.
-```bash
-npx skills add TANUJ0071/opencode-skills@php-expert -g -y
-```
-
-### advanced-frontend-uiux
-Elite 3D/frontend with WebGL, GSAP, Three.js animations.
+### Frontend & UI/UX
 ```bash
 npx skills add TANUJ0071/opencode-skills@advanced-frontend-uiux -g -y
-```
-
-### caveman
-Ultra-compressed communication mode (75% token savings).
-```bash
-npx skills add TANUJ0071/opencode-skills@caveman -g -y
-```
-
-### supabase
-Supabase (Database, Auth, Edge Functions, Storage).
-```bash
-npx skills add TANUJ0071/opencode-skills@supabase -g -y
-```
-
-### ui-ux-pro-max
-UI/UX design intelligence with 50+ styles, 161 color palettes.
-```bash
+npx skills add TANUJ0071/opencode-skills@frontend-design -g -y
 npx skills add TANUJ0071/opencode-skills@ui-ux-pro-max -g -y
 ```
 
-### frontend-design
-Production-grade frontend with distinctive aesthetics.
+### Mobile (React Native)
 ```bash
-npx skills add TANUJ0071/opencode-skills@frontend-design -g -y
+npx skills add TANUJ0071/opencode-skills@react-native -g -y
+npx skills add TANUJ0071/opencode-skills@mobile-developer -g -y
+npx skills add TANUJ0071/opencode-skills@push-notification-setup -g -y
+```
+
+### Backend & Database
+```bash
+npx skills add TANUJ0071/opencode-skills@php-expert -g -y
+npx skills add TANUJ0071/opencode-skills@supabase -g -y
+npx skills add TANUJ0071/opencode-skills@postgresql-database-engineering -g -y
+```
+
+### Cloud & DevOps
+```bash
+npx skills add TANUJ0071/opencode-skills@aws-expert -g -y
+npx skills add TANUJ0071/opencode-skills@docker-compose-orchestration -g -y
+```
+
+### Testing & Deployment
+```bash
+npx skills add TANUJ0071/opencode-skills@playwright-testing -g -y
+npx skills add TANUJ0071/opencode-skills@app-store-deployment -g -y
+```
+
+### Tools
+```bash
+npx skills add TANUJ0071/opencode-skills@caveman -g -y
+npx skills add TANUJ0071/opencode-skills@find-skills -g -y
+```
+
+## Production Stack
+
+This skill set enables building complete production-ready applications:
+
+```
+┌────────────────────────────────────────────────────────────┐
+│                    FRONTEND                              │
+│  react-native (Mobile App)                               │
+│  advanced-frontend-uiux (3D/Animations)                  │
+│  frontend-design (Production UI)                          │
+│  ui-ux-pro-max (Design System)                          │
+├────────────────────────────────────────────────────────────┤
+│                    BACKEND                              │
+│  php-expert (Secure PHP APIs)                            │
+│  supabase (Auth, DB, Storage)                           │
+│  postgresql-database-engineering (PostgreSQL)           │
+├────────────────────────────────────────────────────────────┤
+│                    CLOUD & DEVOPS                        │
+│  aws-expert (AWS Services)                             │
+│  docker-compose-orchestration (Containers)             │
+├────────────────────────────────────────────────────────────┤
+│                    TESTING & DEPLOY                     │
+│  playwright-testing (E2E Tests)                         │
+│  app-store-deployment (Play Store)                      │
+└────────────────────────────────────────────────────────────┘
 ```
 
 ## Usage
 
-After installation, invoke skills by name:
+After installation, invoke skills by name in opencode:
 - `/php-expert` - For PHP backend help
 - `/advanced-frontend-uiux` - For frontend/3D help
-- `/caveman` - For token-efficient communication
+- `/react-native` - For mobile app development
 - `/supabase` - For Supabase help
+- `/aws-expert` - For AWS cloud help
+- `/playwright-testing` - For testing help
+- `/caveman` - For token-efficient chat
 - `/ui-ux-pro-max` - For UI/UX design
-- `/frontend-design` - For frontend help
+
+## Skills Not Found in Registry
+
+The following were searched but not available in the skills registry:
+- Kubernetes (K8s)
+- GraphQL/Apollo
+- TypeScript-specific
+- Stripe/Payments
+- Analytics (Mixpanel)
+- Google Maps
+- ESLint/Prettier
+- i18n/Localization
+
+For these, the skills can help implement using official libraries directly.
 
 ## Star ⭐
 
