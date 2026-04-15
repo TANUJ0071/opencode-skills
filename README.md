@@ -2,7 +2,7 @@
 
 Premium AI skills for opencode featuring advanced frontend UI/UX, secure PHP backend, mobile development, and more for production-ready applications.
 
-## Skills Included (16 Total)
+## Skills Included (17 Total)
 
 | # | Skill | Description |
 |---|-------|--------------|
@@ -21,7 +21,8 @@ Premium AI skills for opencode featuring advanced frontend UI/UX, secure PHP bac
 | 13 | `playwright-testing` | E2E testing with Playwright |
 | 14 | `caveman` | Ultra-compressed communication (75% token savings) |
 | 15 | `find-skills` | Discover and install new skills |
-| 16 | `supabase` | Already listed - Supabase DB, Auth |
+| 16 | `supabase` | Supabase DB, Auth, Storage |
+| 17 | `graphify` | AI knowledge graph (26.6K stars) - analyze codebases |
 
 ## Installation
 
